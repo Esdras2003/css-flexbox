@@ -3,14 +3,12 @@ h1{
     margin: 20px 0 0 0;
     font-size: 1.25em;
     font-weight: 500;
-   
 }
 body{
     font-family: monospace;
     color: #333;
 }
 .item{
-    flex:1;
     margin: 5px;
     background-color: tomato;
     text-align: center;
@@ -20,17 +18,27 @@ body{
     display: flex;
     max-width: 360px;
     margin: 0 auto;
-    border: 1px solid #ccc
+    border: 1px solid #ccc;
 }
-.nowrap{
-    flex-wrap: nowrap;
+.flex-start{
+    justify-content: flex-start;
 }
-.wrap{
-    flex-wrap: wrap;
-}
-.wrap-reverse{
-    flex-wrap: wrap-reverse;
+.flex-end{
+    justify-content: flex-end;
 }
 .center{
     justify-content: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content:space-around ;
+}
+.flex{
+    flex: 1;
+}
+.column{
+    flex-direction: column;
+    min-height: 200px;
 }
