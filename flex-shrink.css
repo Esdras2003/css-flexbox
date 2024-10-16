@@ -23,7 +23,11 @@ body{
     border: 1px solid #ccc;
 
 }
-.shrink{
+.shrink-1{
     flex-shrink: 1;
     flex-grow: 1;
+}
+.shrink-3{
+    flex-grow: 1;
+    flex-shrink: 3;
 }
